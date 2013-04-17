@@ -2,6 +2,8 @@
 $('#show-games').on('click', function() {
   // json_data is a global variable that comes from the data.js
   // script. Pretend this data came from an AJAX call.
+  console.log(json_data);
+  
   var games = json_data.games;
 
   // Call the display_games function, passing in the games.
